@@ -187,11 +187,16 @@ ul li a {
   display: -ms-flexbox;
   display: flex;
   padding: 5%;
-  height: 100vh;
+  min-height: 100vh;
+  justify-content: space-between;
 }
 
 .landing .text {
-  width: 50%;
+    display: flex;
+  flex-flow: column;
+  max-width: 609px;
+  align-items: start;
+  justify-content: center;
   padding: 0% 2% 0% 0%;
 }
 
